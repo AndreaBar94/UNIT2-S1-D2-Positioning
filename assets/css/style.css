@@ -473,13 +473,13 @@ footer button a{
   #blueb1{
     position:fixed;
     top: 10rem;
-    bottom:40rem;
+    bottom: unset;
     right: 2rem;
   }
   #blueb2{
     position:fixed;
     top: 15rem;
-    bottom: 35rem;
+    bottom: unset;
     right: 2rem;
   }
 }
