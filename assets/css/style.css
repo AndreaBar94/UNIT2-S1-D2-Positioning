@@ -485,8 +485,8 @@ footer a {
   border-radius: 1rem;
   width: 4rem;
   padding:1rem;
-  position:absolute;
-  right: -2rem;
+  position:fixed;
+  right: 2rem;
   bottom: 0.5rem;
 }
 
@@ -502,25 +502,25 @@ footer button a{
 
 @media screen and (min-width: 1200px) {
   #blueb1{
-    position:absolute;
-    top: -130rem;
-    bottom:139rem;
+    position:fixed;
+    top: 10rem;
+    bottom:40rem;
+    right: 2rem;
   }
   #blueb2{
-    position:absolute;
-    top: -125rem;
-    bottom:134rem;
+    position:fixed;
+    top: 15rem;
+    bottom: 35rem;
+    right: 2rem;
   }
 }
 @media screen and (max-width:1199px){
   #blueb1{
-    position:absolute;
-    top: -7rem;
+    position:fixed;
     bottom:16rem;
   }
   #blueb2{
-    position:absolute;
-    top: -1rem;
+    position:fixed;
     bottom:10rem;
   }
 }
