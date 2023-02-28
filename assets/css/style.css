@@ -16,50 +16,17 @@ hr {
   display: none;
 } /* rimuove l'elemento */
 
-.underline{
+.line{
   position: relative;
+  display: inline-block;
 }
-
 .svg{
   position: absolute;
   opacity: 60%;
-  width: 80%;
+  width: 100%;
   top: 90%;
-  right: 10%;
+  right: 0;
 }
-
-@media screen and (min-width: 500px) {
-  .svg{
-    position: absolute;
-    top: 110px;
-    width: 80%;
-  }
-}
-@media screen and (min-width: 700px) {
-  .svg{
-    position: absolute;
-    top: 130px;
-    right: 110px;
-    width: 80%;
-  }
-}
-@media screen and (min-width:1068px) {
-  .svg{
-    position: absolute;
-    top: 90%;
-    right: 10%;
-    width: 40%;
-  }
-}
-@media screen and (min-width:1200px) {
-  .svg{
-    position: absolute;
-    top: 60px;
-    right: 150px;
-    width: 45%;
-  }
-}
-
 
 /* HEADER */
 header {
