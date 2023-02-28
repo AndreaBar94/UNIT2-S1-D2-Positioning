@@ -16,21 +16,23 @@ hr {
   display: none;
 } /* rimuove l'elemento */
 
-
-.clearfix{
+.underline{
   position: relative;
 }
 
 .svg{
-  opacity: 60% ;
   position: absolute;
-  top: 90px;
+  opacity: 60%;
+  width: 80%;
+  top: 90%;
+  right: 10%;
 }
 
 @media screen and (min-width: 500px) {
   .svg{
     position: absolute;
     top: 110px;
+    width: 80%;
   }
 }
 @media screen and (min-width: 700px) {
@@ -38,13 +40,15 @@ hr {
     position: absolute;
     top: 130px;
     right: 110px;
+    width: 80%;
   }
 }
 @media screen and (min-width:1068px) {
   .svg{
     position: absolute;
-    top: 70px;
-    right: 110px;
+    top: 90%;
+    right: 5%;
+    width: 45%;
   }
 }
 @media screen and (min-width:1200px) {
@@ -52,6 +56,7 @@ hr {
     position: absolute;
     top: 60px;
     right: 150px;
+    width: 45%;
   }
 }
 
